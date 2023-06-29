@@ -77,13 +77,34 @@
     
                     <div class="d-flex flex-row justify-content-start ms-1 ">
                         <div class="card col-xxl-5 col-12 shadow-sm">
-                            <img src="materials\brochure.png" class="card-img-top" alt="...">
+                            <img src="materials\brochure\brochure.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">京都工芸繊維大学<br>地方創生TechProgram パンフレット</h5>
                                 <p class="card-text">パンフレットの表紙デザインとレイアウトデザインを担当</p>
-                                <a href="#" class="btn btn-dark">詳しく見る</a>
+                                <a href="#" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop">詳しく見る</a>
                             </div>
                         </div>
+
+                        <div class="modal fade" id="staticBackdrop" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-xl">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="staticBackdropLabel">京都工芸繊維大学
+                                    地方創生TechProgram パンフレット</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="d-flex flex-column container modal-body align-items-center">
+                                    <img class="img-fluid my-2 rounded-2" src="materials\brochure\DSC08561.jpg">
+                                    <img class="img-fluid my-2 rounded-2" src="materials\brochure\DSC08563.jpg">
+                                    <img class="img-fluid my-2 rounded-2" src="materials\brochure\DSC08565.jpg">
+                                    <img class="img-fluid my-2 rounded-2" src="materials\brochure\DSC08567.jpg">
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>                                                                    
+                                </div>
+                              </div>
+                            </div>
+                          </div>
     
                             <!-- <div class="card m-3">
                             <img src="..." class="card-img-top" alt="...">
